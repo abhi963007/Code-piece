@@ -3,6 +3,11 @@
 ## Overview
 Code Piece is a professional development studio specializing in delivering cutting-edge solutions for educational institutions and startups. Our website showcases our services, portfolio, and expertise in web development and software solutions.
 
+## Live Site
+🌐 **Live Website:** [code-piece.netlify.app](https://code-piece.netlify.app)
+
+The website is deployed through GitHub and hosted on Netlify with continuous deployment.
+
 ## Features
 - Modern, responsive design
 - Portfolio showcase
@@ -48,8 +53,13 @@ The website can be customized by editing the following files:
 - Custom JavaScript in the `js/` directory
 
 ## Deployment
-The website is ready for deployment on any standard web hosting service:
+The website is automatically deployed from GitHub to Netlify:
 
+1. Changes pushed to the main branch are automatically deployed
+2. The deployment status can be monitored on Netlify
+3. Custom domain configuration is available through Netlify's dashboard
+
+For manual deployment:
 1. Upload all files to your web hosting server
 2. Ensure all file paths are correct
 3. Configure your domain to point to the uploaded files
