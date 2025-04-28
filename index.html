@@ -96,6 +96,25 @@
         padding: 0;
       }
       
+      /* Mobile-specific styles */
+      @media screen and (max-width: 767px) {
+        .hero {
+          min-height: 80vh; /* Reduce height on mobile */
+        }
+        
+        .hero-video-container {
+          height: 200%; /* Less extension on mobile */
+        }
+        
+        .hero-background-video {
+          transform: translateX(-50%) translateY(-50%) scale(0.8); /* Better scale for mobile */
+        }
+        
+        .max-w-hero {
+          padding-top: 20vh; /* Move hero text down on mobile */
+        }
+      }
+      
       .video-overlay {
         position: absolute;
         top: 0;
